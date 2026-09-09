@@ -1,0 +1,6 @@
+{
+  "name": "Greenfield International School",
+  "description": "Premier CBSE affiliated co-educational institution in Singheshwar, Madhepura (Affiliation No. 331149). Explore admissions, academic stages, campus facilities, notices, student life, and school ERP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

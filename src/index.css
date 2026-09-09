@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-deep: #0b2b1b;
+  --color-forest-primary: #0f3822;
+  --color-emerald-secondary: #1b5e39;
+  --color-emerald-light: #237a4b;
+  --color-gold-accent: #c5a059;
+  --color-gold-bright: #d4af37;
+  --color-gold-subtle: #f6f1e6;
+  --color-surface-ivory: #faf9f5;
+  --color-surface-sage: #f0f4f1;
+  --color-surface-mist: #ebf1ec;
+  --color-text-charcoal: #1a2421;
+  --color-text-slate: #2c3e37;
+  --color-text-muted: #5c6b64;
+  --color-border-delicate: #e1e7e2;
+  --color-surface: #faf9f5;
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #414942;
+  --color-secondary-container: #abefbf;
+  --color-on-secondary-container: #2e6f48;
+  --color-surface-container-high: #e9e8e4;
+  --color-surface-container-highest: #e3e2df;
+  --color-surface-container-low: #f4f4f0;
+  --color-surface-container: #efeeea;
+
+  --font-display-hero: "Playfair Display", Georgia, serif;
+  --font-headline-lg: "Playfair Display", Georgia, serif;
+  --font-headline-md: "Playfair Display", Georgia, serif;
+  --font-headline-sm: "Playfair Display", Georgia, serif;
+  --font-body-lead: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body-default: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body-muted: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-label-prominent: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-label-compact: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-eyebrow-accent: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-affiliation-badge: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #faf9f5;
+  color: #1b1c1a;
+}
+
+.font-display-hero {
+  font-family: "Playfair Display", Georgia, serif;
+}
+.font-headline-lg {
+  font-family: "Playfair Display", Georgia, serif;
+}
+.font-headline-md {
+  font-family: "Playfair Display", Georgia, serif;
+}
+.font-headline-sm {
+  font-family: "Playfair Display", Georgia, serif;
+}
+.font-body-lead,
+.font-body-default,
+.font-body-muted,
+.font-label-prominent,
+.font-label-compact,
+.font-eyebrow-accent,
+.font-affiliation-badge {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+}
